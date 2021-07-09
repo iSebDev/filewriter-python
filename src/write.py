@@ -4,7 +4,7 @@ import datetime
 
 from time import sleep as wait
 
-def __WRITE__(self, file=None, text=None):
+def __WRITE__(file=None, text=None):
   
   if not file:
     

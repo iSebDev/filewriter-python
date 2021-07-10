@@ -25,4 +25,3 @@ class message:
 # CONSOLE
 
 > In the console it will appear if the file set in configuration exists and if it does not exist it will be created and modified anyway, getting a message with the name of the file, date and which system made the modification, a history can be added!
-

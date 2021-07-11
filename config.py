@@ -19,3 +19,8 @@ class message:
   {v.variable5}
   {v.variable6}
   """ 
+  
+class options:
+  
+  history = False
+  os_aliases = True

@@ -1,15 +1,21 @@
-from src import variables.vars.*
+from src.variables import vars as v 
+
+## v.variable_name
+## Config variables in .src/variables.py
 
 class config:
   
-  FILE="" ## FILE NAME + EXTENSION || example.txt || or other extension
+  FILE="paraadads.txt" ## FILE NAME + EXTENSION || example.txt || or other extension
   
 class message:
-  
   TEXT = f"""
-  Example1
-  Example 2
-  Example 3 _
-  Example Four 4 * 4
-  {variables.ExampleText} + {variables.ExampleCalc} 
+  Hi1
+  HI + 2
+  Hi 3
+  Example 1 2 3 {v.variable1}
+  {v.variable2}
+  {v.variable3}
+  {v.variable4}
+  {v.variable5}
+  {v.variable6}
   """ 

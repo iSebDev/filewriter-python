@@ -26,3 +26,17 @@ class message:
 
 > In the console it will appear if the file set in configuration exists and if it does not exist it will be created and modified anyway, getting a message with the name of the file, date and which system made the modification, a history can be added!
 
+# VARIABLES
+
+> Config variables in "variables.py"
+
+```py
+
+class vars:
+  example1 = "Hi"
+  example2 = "Hi " + 10*5 / f"Hi {10*5}" / "Hi {}".format(10*5)
+  example3 = random.randint(5,150)
+```
+> With the easy configuration, create variables & import other libraries or plugins which you can use to make your variables more advanced.
+
+

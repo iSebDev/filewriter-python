@@ -12,7 +12,7 @@ class message:
   TEXT = f"""
   Hi1
   HI + 2
-  Hi 3
+  Hi 3 _
   Example 1 2 3 {v.variable1}
   {v.variable2}
   {v.variable3}
@@ -20,7 +20,7 @@ class message:
   {v.variable5}
   {v.variable6}
   """ 
-  
+
 class options:
   
   history = False

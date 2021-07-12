@@ -18,7 +18,7 @@ class placehold:
     
     if var == times.sleep:
       
-      print("Error! Times not is a variable in placeholders")
+      print("Error with function Times! Times not is a variable in placeholders")
       
       break
       
@@ -32,6 +32,6 @@ class placehold:
         
       elif(name[0] > name[20]):
         
-        return variable
+        return placehold.variable(name=None,var=None,time=None)
         
        

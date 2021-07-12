@@ -6,6 +6,7 @@ from src.variables import vars as v
 class config:
   
   FILE="paraadads.txt" ## FILE NAME + EXTENSION || example.txt || or other extension
+  OS_ALIAS="my os aliases"
   
 class message:
   TEXT = f"""
